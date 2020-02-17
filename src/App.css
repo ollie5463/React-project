@@ -2,7 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
+body {
+  align-items: flex-start;
+  font-size: x-large;
+}
+.primary {
+  color: aqua;
+}
+
+ /* {
+
+} */
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
