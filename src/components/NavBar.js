@@ -1,18 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
+
+// const Nav = styled.nav`
+//     border: 5px;
+//     text-align: center; 
+//     `
+const Li = styled.li`
+    display: inline;
+    padding: 5px;
+    background-color: orangered;
+    border-radius: 5px;
+    &:hover{
+        color-adjust: white;
+    }
+    `
 const NavBar = () => (
     <nav>
         <ul>
-            <li>
+            <Li>
                 <Link to="/">Home</Link>
-            </li>
-            <li>
+            </Li>
+            <Li>
                 <Link to="/about">About</Link>
-            </li>
-            <li>
+            </Li>
+            <Li>
                 <Link to="/articles-list">Articles</Link>
-            </li>
+            </Li>
         </ul>
     </nav>
 );
